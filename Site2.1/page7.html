@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Никита Ботов - фулл-стек разработчик</title>
-    <link rel="stylesheet" href="css/kod1.css">
     <link rel="stylesheet" href="css/reset2.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/kod1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <header>
     <nav>
-        <div class="logo">Никита Ботов</div>
-        <div class= "menu">
+       <div class="container">
+           <div class="row">
+               <div class="col-xxl-2 col-lg-3 col-4"><div class="logo">Никита Ботов</div></div>
+               <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offest-lg-1 d-none d-lg-block"><div class= "menu">
             <ul>
                 <li><a href="https://vk.com/id714119718">Обо мне</a></li>
                 <li><a href="#">Услуги</a></li>
@@ -17,20 +24,39 @@
                 <li><a href="#">Отзывы</a></li>
                 <li><a href="#">Контакты</a></li>
             </ul>
-        </div>
+        </div></div>
+          <div class="col-8 d-flex d-lg-none flex-column justify-content-center align-items-end"><div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Навигация
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Обо мне</a></li>
+    <li><a class="dropdown-item" href="#">Услуги</a></li>
+    <li><a class="dropdown-item" href="#">Цены</a></li>
+    <li><a class="dropdown-item" href="#">Отзывы</a></li>
+    <li><a class="dropdown-item" href="#">Контакты</a></li>
+
+    </ul>
+</div></div>
+           </div>
+       </div>
+        
     </nav>
 </header>
 <body>
     
     
     
-        <div class="main"><div class="text1">
+        <div class="main">
+        <div class="container"><div class="row col-lg-6 justify-content-center align-items-center"><div>
+        <div class="text1">
     <h2> Привет, <br> Я - Никита Ботов</h2>
     <h4 class="text2">Фулл стек веб разработчик</h4>
     <input type="submit" value="Обо мне" class="text5" >
     <input type="submit" value="Мои работы" class="text5">
      
-        </div>
+        </div></div></div></div>
+        
         </div>
 
 
@@ -56,7 +82,7 @@
     <br>
     <br>
     <input class="text3" type="submit" value="Какая-то кнопка" >
-    
+
 </div>
 <div class= "chtoumeyu">
     <h1>      
@@ -154,7 +180,7 @@
                     <p>+7 777-777-77-77</p>
                 </div>
     
-    <h2>Оставmте мне сообщение</h2>
+    <h2>Оставьте мне сообщение</h2>
 
    
     <div class="p">       
@@ -169,5 +195,9 @@
     </div>
 
 </div>
+        </div>
+    </h1>
+    </div>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html> 

@@ -9,10 +9,10 @@ nav {
     position: fixed;
 }
 
+
 .logo {
     color: aliceblue;
-    font-size: 28px;
-    padding: 0px 330px;
+    font-size: 22px;
     line-height: 60px;
     float: left;
     -webkit-animation: comming 2s;
@@ -25,12 +25,11 @@ nav {
 
 .menu {
     float: left;
-    padding-left: 400 px;
 }
 
 .menu li {
     float: left;
-    line-height: 60px;
+    line-height: 50px;
     font-size: 20px;
     color: white;
     margin-right: 40px;
@@ -39,6 +38,7 @@ nav {
     -o-animation:topshift 0.4s forwards;
     animation:topshift 0.4s forwards;
     opacity: 0;
+
 }
 
 .menu li a {
@@ -53,12 +53,12 @@ nav {
 }
 
 .main {
-    width: 100%;
-    height:1000px;
+    
+    height:900px;
     background-image: url(../Images/bi4.jpg);
     background-repeat: repeat;
     background-position: center;
-   
+    max-width: 100%;
 }
 
 .menu li:nth-child(2){
@@ -79,7 +79,6 @@ nav {
 
 .text1{
     float:left;
-    margin: 432px 0px 0px 404px;
     font-size: 64px;
     text-align: center;
     color: blue;
@@ -90,19 +89,23 @@ nav {
     -webkit-animation-delay: 3s forwards;
     -o-animation-delay: 3s forwards;
     animation-delay: 3s forwards;
+    padding-top: 300px;
      
 }
 
 .text5 {
     transform: scale(1);
     display: inline-block;
+    padding-bottom: 120px;
 }
 
 .text5:hover {
     color: yellow;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.2s;
 }
+
+
 
 @keyframes comming {
     from {
@@ -126,27 +129,30 @@ nav {
 
 @keyframes title {
     from {
-        margin-left: -500px;
+        margin-left: -200px;
         opacity: 0;
     }
     to {
-        margin-left:404px;
+        margin-left:150px;
         opacity: 1;
     }
 }
 .text2 {
-    font-size: 20px;
+    font-size: 30px;
     color: navy;
     margin-top: 60px;
 }
 
 .text1 input {
     height: 40px;
-    text-align: center;
+    width: 130px;
     border: 2px solid blue;
     background: burlywood;
     border-radius: 10px;
     padding: 0px 16px;
+    font-size: 30%;
+    text-align: center;
+
 }
 
 .text3 {
@@ -158,13 +164,13 @@ nav {
 }
 
 div.obomne {
-    height: 800px;
+    height: 600px;
     width: 100%;
-    background-image:  url(../Images/bi4.jpg);
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
     font-size:20px;
     padding-bottom: 400px;
+    background-color: gray;
     
 }
 
@@ -175,6 +181,8 @@ h2.obomne2 {
     color: blue;
     text-transform: uppercase;
     padding-bottom: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+
 }
 
 
@@ -268,7 +276,7 @@ h2.obomne2 {
    
     text-align: center;
     font-size: 20px;
-    background-repeat:repeat-x
+    background-repeat: repeat;
         
 }
 
@@ -278,6 +286,8 @@ h2.obomne2 {
     padding-bottom: 40px;
     padding-top: 20px;
     font-size: 32px;
+    font-family: 'Edu TAS Beginner', cursive;
+
 }
 
 section {
@@ -339,6 +349,7 @@ section h4 {
     width: 100%;
     text-align: center;
     background-image: url(../Images/bi4.jpg);
+    background-repeat: repeat;
 }
 
 .ras h2 {
@@ -346,6 +357,8 @@ section h4 {
     padding-top: 650px;
     font-size: 32px;
     color: midnightblue;
+    font-family: 'Edu TAS Beginner', cursive;
+
 }
 
 .ras h3 {
@@ -353,7 +366,7 @@ section h4 {
 }
 
 .st {
-    height: 800px;
+    height: 1100px;
     width: 100%;
     background-image: url(../Images/bi4.jpg);
     text-align: center;
@@ -382,7 +395,7 @@ section h4 {
 }
 
 .kon {
-    height: 1600px;
+    height: 2000px;
     width: 100%;
     background-image:  url(../Images/background_003.jpg);
     text-align: center;
@@ -399,6 +412,7 @@ section h4 {
     padding-bottom: 5px;
     text-transform: uppercase;
     padding-top: 100px;
+    
 }
 
 .kon h2 {
